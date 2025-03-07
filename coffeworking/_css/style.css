@@ -1,0 +1,508 @@
+
+@font-face {
+    font-family: "rocha";
+    src: url(../font/Poppins-Medium.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+body{
+    background-color: bisque;
+    font-size: 100%;
+}
+
+
+
+html{
+    height: 500vh;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+header.rolagem{
+    background-color: rgb(253, 251, 251);
+    padding: 20px 4%;
+}
+
+header.rolagem a{
+    color: rgb(12, 12, 12);
+}
+header.rolagem a, header.rolagem i{
+    color: rgb(0, 0, 0);
+}
+
+header i{
+    font-size: 30px;
+    color: rgb(247, 241, 241);
+}
+
+header ul{
+    list-style-type: none;
+    
+
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+} 
+
+.b1{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 3px 10px;
+}
+.b2{
+    background: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: none;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.b3{
+    border: none;
+    background: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.banner{
+
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    background-image: url(../imagem_2024-03-09_094831260-transformed.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-evenly;
+}
+
+.bg.banner{
+    margin-left: -8%;
+    background-size: 10px;
+    padding: 2% 8%;
+    border-radius: 5%;
+}
+
+.banner h1{
+    padding: 10px 15px;    
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10px;
+    font-size: 180%;
+}
+
+
+
+.button{
+    margin-top: 100px;
+    margin-left: 100px;
+    padding: 25px 65px;
+    background-color: #131111;
+    color: white;
+    border-radius: 120px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.button span{
+    font-size: 30px;
+    position: relative;
+
+}
+
+.btoqco{
+    
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+.oqco{
+    
+    margin-top: 60px;
+    display: flex;
+    flex-direction:row;
+    align-items:start;
+    justify-content: space-evenly;
+}
+
+.csoqco{
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.imgoqco{
+    margin-bottom: 5%;
+    margin-right: -10px;
+    display: flex ;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+
+.txtoqco{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items:self-end;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+.tcard{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+}
+
+.tt{
+    margin-top: 10%;
+}
+.pp{
+    margin-bottom: 5%;
+}
+
+
+.cards{
+    margin-bottom: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: antiquewhite;
+
+}
+
+.fdcard{
+    
+    background-color: antiquewhite;
+}
+
+.card1{
+    
+    width: 180%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0px 2px 23px rgb(71, 69, 69);
+    border-radius: 20px;
+}
+
+.midiacard1{
+    margin-left: 12%;
+    background: url(https://spaces-wp.imgix.net/2021/11/module1_coworking-720x800.jpeg?auto=compress,format&q=50) center/cover;
+    height: 300px;
+    width: 75%;
+    border-radius: 5%;
+}
+
+.topcard1{
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.buttoncard1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 40%;
+}
+.actions1{
+    
+    margin-left: 45%;
+    background: none;
+    border: none;
+    color: #f87e26;
+}
+
+.secondtext1{
+    color: rgb(155, 132, 2);
+}
+.bottomtext1{
+    align-items: center;
+    text-align: center;
+    font-size: 75%;
+    margin-left: 2%;
+}
+
+.fdcard2{
+    background-color: antiquewhite;
+}
+
+.card2{
+    
+    width: 150%;
+    height: 50%;
+    background-color: white;
+    box-shadow: 0px 2px 23px rgb(71, 69, 69);
+    border-radius: 20px;
+}
+
+.midiacard2{
+    margin-left: 12%;
+    background: url(../253411-por-que-as-empresas-optam-por-um-coworking-no-rio-de-janeiro-600x400.jpg) center/cover;
+    height: 300px;
+    width: 75%;
+    border-radius: 5%;
+}
+
+.topcard2{
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.buttoncard2{
+    padding: 10px;
+    margin-bottom: 40%;
+}
+.actions2{
+    margin-left: 45%;
+    background: none;
+    border: none;
+    color: #f87e26;
+}
+
+.secondtext2{
+    color: rgb(155, 132, 2);
+}
+.bottomtext2{
+    align-items: center;
+    text-align: center;
+    font-size: 75%;
+    margin-left: 2%;
+}
+
+.pqco{
+    margin-bottom: 15%;
+}
+
+.ttpqco{
+    margin-left: 5%;
+    font-size: 200%;
+    margin-bottom: 10%;
+    margin-top: -15%;
+}
+.pqcotx{
+    
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.ttpqco1{
+    font-size: 110%;
+}
+
+.imgco{
+    margin-top: 3.5%;
+}
+.ttpqco2{
+    margin-top: 1%;
+    font-size: 110%;
+}
+
+.ttpqco3{
+    font-size: 110%;
+}
+
+.pqco1{
+    font-size: 95%;
+}
+
+.pqco2{
+    font-size: 95%;
+}
+
+.pqco3{
+    font-size: 95%;
+}
+
+
+footer{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: #f3eaea;
+    color: rgb(0, 0, 0);
+}
+
+.ftsbp{
+    margin-bottom: 10px;
+}
+.ftsbp2{
+    margin-bottom: 10px;
+}
+.ftsbp3{
+    margin-bottom: 10px;
+}
+.ftsb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ftsb2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ftsb3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.b4{
+    margin-bottom: 5%;
+    background: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: none;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.b5{
+    margin-bottom: 5px;
+    background: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: none;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.b6{
+    margin-bottom: 5px;
+    background: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: none;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.b7{
+    margin-bottom: 5px;
+    background: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: none;
+    border-color: grey;
+    border-width: 0.5px;
+}
+.b8{
+    margin-bottom: 5px;    
+    background: none;
+    font-size: 15px;
+    padding: 3px 10px;
+    border-radius: 8px;
+    border: none;
+    border-color: grey;
+    border-width: 0.5px;
+}
+
+.eemhtcl1{
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: antiquewhite;
+}
+.emht{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 20%;
+    background-color: antiquewhite
+}
+.emhttx{
+    margin-bottom: 1%;
+}
+
+.emhtbtm{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.imgem1{
+    margin-left: -10%;
+    margin-right: 5%;
+    border-radius: 8px;
+}
+.imgem2{
+    border-radius: 8px;
+    margin-right: 5%;
+}
+.imgem3{
+    margin-right: 5%;
+    border-radius: 8px;
+}
+.imgem4{
+    background-color: white;
+    margin-right: 5%;
+    border-radius: 8px;
+}
+.imgem5{
+    margin-right: 5%;
+    border-radius: 8px;
+}
+
+
+
+
+
